@@ -73,4 +73,12 @@ Attention
 + Next Sentence Prediction
 + BERT Fine-tuning
 +
-+
+
+# NLP
+
++ Symbolic
++ statistical
++ Neural
+
+> word2vec
+
