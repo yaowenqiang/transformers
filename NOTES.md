@@ -82,3 +82,13 @@ Attention
 
 > word2vec
 
+
++ Recurrent Neural Network (递归神经网络)
++ vanish gradient(梯度消失和梯度爆炸)
++ Long Short-Term Memory(长短期记忆网络LSTM)
++ Encoder-Decoder Attention()
++ Self Attention(自注意力机制)
++ Attention is all you need(paper)
++ Multi-head Attention(多头注意力)
++ Positional Encoding(位置编码)
++
