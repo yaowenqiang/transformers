@@ -91,4 +91,13 @@ Attention
 + Attention is all you need(paper)
 + Multi-head Attention(多头注意力)
 + Positional Encoding(位置编码)
-+
+
+## Special Model Tokens
+
+| Token | Meaning |
+| --- | --- |
+| **[PAD]** | Padding token, allows us to maintain same-length sequences (512 tokens for Bert) even when different sized sentences are fed in |
+| **[UNK]** | Used when a word is unknown to Bert |
+| **[CLS]** | Appears at the start of every sequence |
+| **[SEP]** | Indicates a seperator or end of sequence |
+| **[MASK]** | Used when masking tokens, for example in training with masked language modelling (MLM) |+
