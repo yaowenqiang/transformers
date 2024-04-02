@@ -101,3 +101,6 @@ Attention
 | **[CLS]** | Appears at the start of every sequence |
 | **[SEP]** | Indicates a seperator or end of sequence |
 | **[MASK]** | Used when masking tokens, for example in training with masked language modelling (MLM) |+
+
+## Stemming(词干提取)
+## Lemmatization(词型还原)
