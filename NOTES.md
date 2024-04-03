@@ -104,3 +104,8 @@ Attention
 
 ## Stemming(词干提取)
 ## Lemmatization(词型还原)
+
+## Unicode Normalization
+
++ canonical equivalence(规范等价)
++ compatibility equivalence(兼容等价)
