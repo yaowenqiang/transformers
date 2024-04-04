@@ -109,3 +109,6 @@ Attention
 
 + canonical equivalence(规范等价)
 + compatibility equivalence(兼容等价)
+
+## Decomposition and Composition
+
