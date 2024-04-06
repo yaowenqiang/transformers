@@ -112,3 +112,12 @@ Attention
 
 ## Decomposition and Composition
 
+### Normal Forms
+
+| Name  | Abbreviation | Description | Example |
+| --- | --------------- | ----------- | -------- |
+| Form D | NFD | Canonical decomposition | Ç → C ̧ |
+| Form C | NFC | Canonical decomposition followed by canonical composition | Ç → C ̧ → Ç|
+| Form KD | NFKD | Compatibility  decomposition | ℌ ̧ → H ̧|
+| Form KC | NFKC | Compatibility  decomposition followed by canonical composition| ℌ ̧ → H ̧ → Ḩ|
+
