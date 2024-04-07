@@ -11,6 +11,23 @@ decomposed = unicodedata.normalize('NFD', s)
 print(decomposed)  # 输出会是 "ｷ国"
 
 c_with_cedilla = "\u00C7"  # Latin capital C with cedilla (single character)
-c_plus_cedilla = "\u0043\u0327"  # \u0043 = Latin capital C, \u0327 = 'combining cedilla' (two characters)
-ic(c_with_cedilla == c_plus_cedilla)
+c_plus_cedilla = "\u0043\u0327"  # \u0043 = Latin capital C, \u0327 = 'combining cedilla' (two characters) ic(c_with_cedilla == c_plus_cedilla)
+
+ic(c_with_cedilla)
+ic(unicodedata.normalize('NFD', c_with_cedilla))
+ic(unicodedata.normalize('NFC', c_with_cedilla))
+ic(unicodedata.normalize('NFKD', c_with_cedilla))
+ic(unicodedata.normalize('NFKC', c_with_cedilla))
+
+
 ic(unicodedata.normalize('NFD', c_with_cedilla) == c_plus_cedilla)
+ic(unicodedata.normalize('NFC', c_with_cedilla) == c_plus_cedilla)
+ic(unicodedata.normalize('NFKD', c_with_cedilla) == c_plus_cedilla)
+ic(unicodedata.normalize('NFKC', c_with_cedilla) == c_plus_cedilla)
+
+ic(unicodedata.normalize('NFC', 'ℌ'))
+ic(unicodedata.normalize('NFD', 'ℌ'))
+ic(unicodedata.normalize('NFKD', 'ℌ'))
+ic(unicodedata.normalize('NFKC', 'ℌ'))
+
+ic(unicodedata.normalize('NFKC', 'Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ ⓂⓃ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ') == 'abcdefghijklmnopurestuvwxyz')
