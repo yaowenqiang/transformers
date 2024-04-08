@@ -30,4 +30,9 @@ ic(unicodedata.normalize('NFD', 'ℌ'))
 ic(unicodedata.normalize('NFKD', 'ℌ'))
 ic(unicodedata.normalize('NFKC', 'ℌ'))
 
-ic(unicodedata.normalize('NFKC', 'Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ ⓂⓃ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ') == 'abcdefghijklmnopurestuvwxyz')
+circle_chars = "ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ'"
+ic(unicodedata.normalize('NFC', circle_chars))
+ic(unicodedata.normalize('NFD', circle_chars))
+ic(unicodedata.normalize('NFKC', circle_chars))
+ic(unicodedata.normalize('NFKD', circle_chars))
+
