@@ -121,3 +121,15 @@ Attention
 | Form KD | NFKD | Compatibility  decomposition | ℌ ̧ → H ̧|
 | Form KC | NFKC | Compatibility  decomposition followed by canonical composition| ℌ ̧ → H ̧ → Ḩ|
 
+# Attentions
+
+# Language Classification
+
+tokens 
+
+[CLS]  = 101
+[SEP]  = 102
+[MASK]  = 103
+[UNK]  = 100
+[PAD]  = 0
+

@@ -26,3 +26,4 @@ b = np.array(hi)
 c = np.array(tomato)
 
 print(np.matmul(a, b.T))
+print(np.dot(a, b.T))
